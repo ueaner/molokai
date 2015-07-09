@@ -116,7 +116,7 @@ if s:molokai_original == 1
    hi CursorLineNr    guifg=#FD971F               gui=none
    hi CursorColumn                  guibg=#3E3D32
    hi ColorColumn                   guibg=#3B3A32
-   hi LineNr          guifg=#BCBCBC guibg=#3B3A32
+   hi LineNr          guifg=#8F908A guibg=#272822
    hi NonText         guifg=#75715E
    hi SpecialKey      guifg=#75715E
 else
@@ -158,7 +158,7 @@ if &t_Co > 255
    hi DiffAdd                     ctermbg=24
    hi DiffChange      ctermfg=181 ctermbg=239
    hi DiffDelete      ctermfg=162 ctermbg=53
-   hi DiffText                    ctermbg=102 cterm=bold
+   hi DiffText                    ctermbg=102   cterm=bold
 
    hi Directory       ctermfg=118               cterm=bold
    hi Error           ctermfg=219 ctermbg=89
@@ -177,7 +177,7 @@ if &t_Co > 255
    hi Macro           ctermfg=193
    hi SpecialKey      ctermfg=81
 
-   hi MatchParen      ctermfg=233  ctermbg=208 cterm=bold
+   hi MatchParen      ctermfg=233  ctermbg=208  cterm=bold
    hi ModeMsg         ctermfg=229
    hi MoreMsg         ctermfg=229
    hi Operator        ctermfg=161
@@ -206,8 +206,13 @@ if &t_Co > 255
        hi SpellRare  ctermfg=none ctermbg=none  cterm=reverse
    endif
    hi Statement       ctermfg=161               cterm=bold
-   hi StatusLine      ctermfg=238 ctermbg=253
-   hi StatusLineNC    ctermfg=244 ctermbg=232
+   hi StatusLine      ctermfg=248 ctermbg=233   cterm=none
+   hi StatusLineNC    ctermfg=244 ctermbg=236   cterm=none
+
+   hi TabLine         ctermfg=248 ctermbg=233   cterm=none
+   hi TabLineSel      ctermfg=231 ctermbg=233   cterm=bold
+   hi TabLineFill     ctermfg=254 ctermbg=233   cterm=none
+
    hi StorageClass    ctermfg=208
    hi Structure       ctermfg=81
    hi Tag             ctermfg=161
@@ -269,6 +274,10 @@ if &t_Co > 255
        hi NonText         ctermfg=239
        hi SpecialKey      ctermfg=239
    endif
+
+   hi User1           ctermfg=231 ctermbg=24    cterm=none
+   hi User2           ctermfg=67  ctermbg=233   cterm=none
+   hi User3           ctermfg=255 ctermbg=233   cterm=none
 end
 
 " Must be at the end, because of ctermbg=234 bug.
