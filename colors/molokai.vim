@@ -274,10 +274,6 @@ if &t_Co > 255
        hi NonText         ctermfg=239
        hi SpecialKey      ctermfg=239
    endif
-
-   hi User1           ctermfg=231 ctermbg=24    cterm=none
-   hi User2           ctermfg=67  ctermbg=233   cterm=none
-   hi User3           ctermfg=255 ctermbg=233   cterm=none
 end
 
 " Must be at the end, because of ctermbg=234 bug.
