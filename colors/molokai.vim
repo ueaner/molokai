@@ -273,6 +273,13 @@ if &t_Co > 255
        hi LineNr          ctermfg=239 ctermbg=235
        hi NonText         ctermfg=239
        hi SpecialKey      ctermfg=239
+
+       hi TabLine         ctermfg=248 ctermbg=233   cterm=none
+       hi TabLineSel      ctermfg=231 ctermbg=233   cterm=bold
+       hi TabLineFill     ctermfg=254 ctermbg=233   cterm=none
+
+       hi StatusLine      ctermfg=248 ctermbg=233   cterm=none
+       hi StatusLineNC    ctermfg=244 ctermbg=236   cterm=none
    endif
 end
 
