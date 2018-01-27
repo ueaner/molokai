@@ -55,10 +55,10 @@ hi MoreMsg         guifg=#E6DB74
 hi Operator        guifg=#F92672
 
 " complete menu
-hi Pmenu           guifg=#66D9EF guibg=#000000
-hi PmenuSel                      guibg=#1B1D1E
+hi Pmenu           guifg=#5fd7ff guibg=#080808
+hi PmenuSel                      guibg=#000000
 hi PmenuSbar                     guibg=#080808
-hi PmenuThumb      guifg=#66D9EF
+hi PmenuThumb      guifg=#5fd7ff
 
 hi PreCondit       guifg=#A6E22E               gui=bold
 hi PreProc         guifg=#A6E22E
@@ -79,12 +79,12 @@ if has("spell")
 endif
 hi Statement       guifg=#F92672               gui=bold
 
-hi StatusLine      guifg=#F8F8F2 guibg=#080808
-hi StatusLineNC    guifg=#808080 guibg=#232526
+hi StatusLine      guifg=#A8A8A8 guibg=#121212 gui=none
+hi StatusLineNC    guifg=#808080 guibg=#262626 gui=none
 
-hi TabLine         guifg=#808080 guibg=#080808 gui=none
-hi TabLineSel      guifg=#F8F8F2 guibg=#080808
-hi TabLineFill                   guibg=#080808
+hi TabLine         guifg=#808080 guibg=#121212 gui=none
+hi TabLineSel      guifg=#D0D0D0 guibg=#121212 gui=bold
+hi TabLineFill                   guibg=#121212 gui=none
 
 hi StorageClass    guifg=#FD971F               gui=italic
 hi Structure       guifg=#66D9EF
@@ -154,7 +154,7 @@ hi Operator        ctermfg=197
 
 " complete menu
 hi Pmenu           ctermfg=81    ctermbg=232
-hi PmenuSel        ctermfg=255   ctermbg=16
+hi PmenuSel                      ctermbg=16
 hi PmenuSbar                     ctermbg=232
 hi PmenuThumb      ctermfg=81
 
@@ -177,7 +177,7 @@ if has("spell")
 endif
 hi Statement       ctermfg=197                 cterm=bold
 
-hi StatusLine      ctermfg=252   ctermbg=233   cterm=none
+hi StatusLine      ctermfg=248   ctermbg=233   cterm=none
 hi StatusLineNC    ctermfg=244   ctermbg=235   cterm=none
 
 hi TabLine         ctermfg=244   ctermbg=233   cterm=none
