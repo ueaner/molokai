@@ -83,7 +83,7 @@ hi StatusLine      guifg=#A8A8A8 guibg=#121212 gui=none
 hi StatusLineNC    guifg=#808080 guibg=#262626 gui=none
 
 hi TabLine         guifg=#808080 guibg=#121212 gui=none
-hi TabLineSel      guifg=#D0D0D0 guibg=#121212 gui=bold
+hi TabLineSel      guifg=#D0D0D0 guibg=#000000 gui=bold
 hi TabLineFill                   guibg=#121212 gui=none
 
 hi StorageClass    guifg=#FD971F               gui=italic
