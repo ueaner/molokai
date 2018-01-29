@@ -111,6 +111,8 @@ hi ColorColumn                   guibg=#232526
 hi LineNr          guifg=#465457 guibg=#232526
 hi NonText         guifg=#465457
 
+hi EndOfBuffer     guifg=bg
+
 "
 " Support for 256-color terminal
 "
@@ -208,6 +210,8 @@ hi CursorColumn                  ctermbg=236
 hi ColorColumn                   ctermbg=236
 hi LineNr          ctermfg=239   ctermbg=235
 hi NonText         ctermfg=239
+
+hi EndOfBuffer     ctermfg=bg
 
 " Must be at the end, because of ctermbg=234 bug.
 " https://groups.google.com/forum/#!msg/vim_dev/afPqwAFNdrU/nqh6tOM87QUJ
