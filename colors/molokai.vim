@@ -96,7 +96,7 @@ hi Typedef         guifg=#66D9EF
 hi Type            guifg=#66D9EF               gui=none
 hi Underlined      guifg=#808080               gui=underline
 
-hi VertSplit       guifg=#808080 guibg=#080808 gui=bold
+hi VertSplit                     guibg=#121212 gui=none
 hi VisualNOS                     guibg=#403D3D
 hi Visual                        guibg=#403D3D
 hi WarningMsg      guifg=#FFFFFF guibg=#333333 gui=bold
@@ -196,7 +196,7 @@ hi Typedef         ctermfg=81
 hi Type            ctermfg=81                  cterm=none
 hi Underlined      ctermfg=244                 cterm=underline
 
-hi VertSplit       ctermfg=244   ctermbg=232   cterm=bold
+hi VertSplit                     ctermbg=233   cterm=none
 hi VisualNOS                     ctermbg=238
 hi Visual                        ctermbg=238
 hi WarningMsg      ctermfg=231   ctermbg=238   cterm=bold
