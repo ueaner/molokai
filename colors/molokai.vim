@@ -64,7 +64,7 @@ hi PreCondit       guifg=#A6E22E               gui=bold
 hi PreProc         guifg=#A6E22E
 hi Question        guifg=#66D9EF
 hi Repeat          guifg=#F92672               gui=bold
-hi Search          guifg=#000000 guibg=#FFE792
+hi Search          guifg=#000000 guibg=#FFE792 gui=none
 
 " marks
 hi SignColumn      guifg=#A6E22E guibg=#232526
@@ -104,10 +104,10 @@ hi WildMenu        guifg=#66D9EF guibg=#000000
 
 hi Normal          guifg=#F8F8F2 guibg=#1B1D1E
 hi Comment         guifg=#7E8E91
-hi CursorLine                    guibg=#293739
-hi CursorLineNr    guifg=#FD971F               gui=none
+hi CursorLine                    guibg=#293739 gui=none
+hi CursorLineNr    guifg=#FD971F guibg=#232526 gui=none
 hi CursorColumn                  guibg=#293739
-hi ColorColumn                   guibg=#232526
+hi ColorColumn                   guibg=#293739
 hi LineNr          guifg=#465457 guibg=#232526
 hi NonText         guifg=#465457
 
@@ -166,7 +166,7 @@ hi Question        ctermfg=81
 hi Repeat          ctermfg=197                 cterm=bold
 hi Search          ctermfg=0     ctermbg=222   cterm=none
 
-" marks column
+" marks
 hi SignColumn      ctermfg=118   ctermbg=235
 hi SpecialChar     ctermfg=161                 cterm=bold
 hi SpecialComment  ctermfg=245                 cterm=bold
@@ -205,7 +205,7 @@ hi WildMenu        ctermfg=81    ctermbg=16
 hi Normal          ctermfg=252   ctermbg=234
 hi Comment         ctermfg=244
 hi CursorLine                    ctermbg=236   cterm=none
-hi CursorLineNr    ctermfg=208                 cterm=none
+hi CursorLineNr    ctermfg=208   ctermbg=235   cterm=none
 hi CursorColumn                  ctermbg=236
 hi ColorColumn                   ctermbg=236
 hi LineNr          ctermfg=239   ctermbg=235
