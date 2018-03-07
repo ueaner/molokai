@@ -83,7 +83,7 @@ hi StatusLine      guifg=#A8A8A8 guibg=#232526 gui=none
 hi StatusLineNC    guifg=#7E8E91 guibg=#121212 gui=none
 
 hi TabLine         guifg=#808080 guibg=#121212 gui=none
-hi TabLineSel      guifg=#D0D0D0 guibg=#000000 gui=bold
+hi TabLineSel      guifg=#D0D0D0 guibg=#1B1D1E gui=none
 hi TabLineFill                   guibg=#121212 gui=none
 
 hi StorageClass    guifg=#FD971F               gui=italic
@@ -156,7 +156,7 @@ hi Operator        ctermfg=197
 
 " complete menu
 hi Pmenu           ctermfg=81    ctermbg=232
-hi PmenuSel                      ctermbg=16
+hi PmenuSel        ctermfg=255   ctermbg=16
 hi PmenuSbar                     ctermbg=232
 hi PmenuThumb      ctermfg=81
 
@@ -183,7 +183,7 @@ hi StatusLine      ctermfg=248   ctermbg=235   cterm=none
 hi StatusLineNC    ctermfg=244   ctermbg=233   cterm=none
 
 hi TabLine         ctermfg=244   ctermbg=233   cterm=none
-hi TabLineSel      ctermfg=252   ctermbg=233   cterm=bold
+hi TabLineSel      ctermfg=252   ctermbg=234   cterm=none
 hi TabLineFill                   ctermbg=233   cterm=none
 
 hi StorageClass    ctermfg=208
