@@ -79,8 +79,8 @@ if has("spell")
 endif
 hi Statement       guifg=#F92672               gui=bold
 
-hi StatusLine      guifg=#A8A8A8 guibg=#121212 gui=none
-hi StatusLineNC    guifg=#7E8E91 guibg=#232526 gui=none
+hi StatusLine      guifg=#A8A8A8 guibg=#232526 gui=none
+hi StatusLineNC    guifg=#7E8E91 guibg=#121212 gui=none
 
 hi TabLine         guifg=#808080 guibg=#121212 gui=none
 hi TabLineSel      guifg=#D0D0D0 guibg=#000000 gui=bold
@@ -179,8 +179,8 @@ if has("spell")
 endif
 hi Statement       ctermfg=197                 cterm=bold
 
-hi StatusLine      ctermfg=248   ctermbg=233   cterm=none
-hi StatusLineNC    ctermfg=244   ctermbg=235   cterm=none
+hi StatusLine      ctermfg=248   ctermbg=235   cterm=none
+hi StatusLineNC    ctermfg=244   ctermbg=233   cterm=none
 
 hi TabLine         ctermfg=244   ctermbg=233   cterm=none
 hi TabLineSel      ctermfg=252   ctermbg=233   cterm=bold
