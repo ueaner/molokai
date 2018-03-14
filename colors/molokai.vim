@@ -27,10 +27,10 @@ hi Debug           guifg=#BCA3A3               gui=bold
 hi Define          guifg=#66D9EF
 hi Delimiter       guifg=#8F8F8F
 
-hi DiffAdd                       guibg=#13354A
-hi DiffChange      guifg=#89807D guibg=#4C4745
-hi DiffDelete      guifg=#960050 guibg=#1E0010
-hi DiffText                      guibg=#4C4745 gui=italic,bold
+hi DiffAdd                       guibg=#005f00
+hi DiffChange                    guibg=#4B1818
+hi DiffDelete      guifg=#000000 guibg=#5f0000
+hi DiffText                      guibg=#870000 gui=italic,bold
 
 hi Directory       guifg=#A6E22E               gui=bold
 hi Error           guifg=#E6DB74 guibg=#1E0010
@@ -127,10 +127,10 @@ hi Debug           ctermfg=225                 cterm=bold
 hi Define          ctermfg=81
 hi Delimiter       ctermfg=241
 
-hi DiffAdd                       ctermbg=24
-hi DiffChange      ctermfg=181   ctermbg=239
-hi DiffDelete      ctermfg=125   ctermbg=233
-hi DiffText                      ctermbg=102   cterm=bold
+hi DiffAdd                       ctermbg=22
+hi DiffChange                    ctermbg=52
+hi DiffDelete      ctermfg=16    ctermbg=52
+hi DiffText                      ctermbg=88    cterm=bold
 
 hi Directory       ctermfg=154                 cterm=bold
 hi Error           ctermfg=222   ctermbg=233
@@ -164,7 +164,7 @@ hi PreCondit       ctermfg=154                 cterm=bold
 hi PreProc         ctermfg=154
 hi Question        ctermfg=81
 hi Repeat          ctermfg=197                 cterm=bold
-hi Search          ctermfg=0     ctermbg=222   cterm=none
+hi Search          ctermfg=16    ctermbg=222   cterm=none
 
 " marks
 hi SignColumn      ctermfg=118   ctermbg=235
