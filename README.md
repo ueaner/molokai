@@ -4,10 +4,17 @@ Molokai is a Vim port of the monokai theme for TextMate originally created by Wi
 
 By default, it has a dark gray background based on the version created by Hamish Stuart Macpherson for the E editor.
 
-![Molokai](https://i.imgur.com/R6rnKhO.png)
+![Molokai](https://i.imgur.com/sb4h7rj.png)
 
 256-Color terminals are also supported, though there are some differences with the Gui version. Only the dark gray background style is supported on terminal vim at this time.
 
 ## Installation
 
-Copy the file on your .vim/colors folder.
+Use a plugin manager, i.e:
+
+* [Vundle](https://github.com/VundleVim/Vundle.vim)
+  * `Plugin 'ueaner/molokai'`
+* [vim-plug](https://github.com/junegunn/vim-plug)
+  * `Plug 'ueaner/molokai'`
+
+or copy the file on your .vim/colors folder.
