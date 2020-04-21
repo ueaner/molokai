@@ -79,8 +79,8 @@ if has("spell")
 endif
 hi Statement       guifg=#F92672               gui=bold
 
-hi StatusLine      guifg=#A8A8A8 guibg=#232526 gui=none
-hi StatusLineNC    guifg=#7E8E91 guibg=#121212 gui=none
+hi StatusLine      guifg=#C0C0C0 guibg=#232526 gui=none
+hi StatusLineNC    guifg=#7E8E91 guibg=#232526 gui=none
 
 hi TabLine         guifg=#808080 guibg=#1B1D1E gui=none
 hi TabLineSel                                  gui=none
@@ -96,7 +96,7 @@ hi Typedef         guifg=#66D9EF
 hi Type            guifg=#66D9EF               gui=none
 hi Underlined      guifg=#808080               gui=underline
 
-hi VertSplit                     guibg=#121212 gui=none
+hi VertSplit                     guibg=#232526 gui=none
 hi VisualNOS                     guibg=#403D3D
 hi Visual                        guibg=#403D3D
 hi WarningMsg      guifg=#FFFFFF guibg=#333333 gui=bold
@@ -179,8 +179,8 @@ if has("spell")
 endif
 hi Statement       ctermfg=197                 cterm=bold
 
-hi StatusLine      ctermfg=248   ctermbg=235   cterm=none
-hi StatusLineNC    ctermfg=244   ctermbg=233   cterm=none
+hi StatusLine      ctermfg=7     ctermbg=235   cterm=none
+hi StatusLineNC    ctermfg=244   ctermbg=235   cterm=none
 
 hi TabLine         ctermfg=244   ctermbg=234   cterm=none
 hi TabLineSel                                  cterm=none
@@ -196,7 +196,7 @@ hi Typedef         ctermfg=81
 hi Type            ctermfg=81                  cterm=none
 hi Underlined      ctermfg=244                 cterm=underline
 
-hi VertSplit                     ctermbg=233   cterm=none
+hi VertSplit                     ctermbg=235   cterm=none
 hi VisualNOS                     ctermbg=238
 hi Visual                        ctermbg=238
 hi WarningMsg      ctermfg=231   ctermbg=238   cterm=bold
@@ -212,6 +212,11 @@ hi LineNr          ctermfg=239   ctermbg=235
 hi NonText         ctermfg=239
 
 hi EndOfBuffer     ctermfg=bg
+
+
+" TODO FIXME XXX
+syn keyword        myTodo       contained TODO FIXME XXX
+hi  def link       myTodo       Todo
 
 " Must be at the end, because of ctermbg=234 bug.
 " https://groups.google.com/forum/#!msg/vim_dev/afPqwAFNdrU/nqh6tOM87QUJ
