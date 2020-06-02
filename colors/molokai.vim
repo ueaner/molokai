@@ -99,7 +99,7 @@ hi Underlined      guifg=#808080               gui=underline
 hi VertSplit                     guibg=#232526 gui=none
 hi VisualNOS                     guibg=#403D3D
 hi Visual                        guibg=#403D3D
-hi WarningMsg      guifg=#FFFFFF guibg=#333333 gui=bold
+hi WarningMsg      guifg=#df6566 guibg=#232526 gui=bold
 hi WildMenu        guifg=#66D9EF guibg=#000000
 
 hi Normal          guifg=#F8F8F2 guibg=#1B1D1E
@@ -199,7 +199,7 @@ hi Underlined      ctermfg=244                 cterm=underline
 hi VertSplit                     ctermbg=235   cterm=none
 hi VisualNOS                     ctermbg=238
 hi Visual                        ctermbg=238
-hi WarningMsg      ctermfg=231   ctermbg=238   cterm=bold
+hi WarningMsg      ctermfg=167   ctermbg=235   cterm=bold
 hi WildMenu        ctermfg=81    ctermbg=16
 
 hi Normal          ctermfg=252   ctermbg=234
