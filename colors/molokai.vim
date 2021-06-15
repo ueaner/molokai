@@ -29,7 +29,7 @@ hi Delimiter       guifg=#8F8F8F
 
 hi DiffAdd                       guibg=#005f00
 hi DiffChange                    guibg=#4B1818
-hi DiffDelete      guifg=#000000 guibg=#5f0000
+hi DiffDelete      guifg=#960050 guibg=#5f0000
 hi DiffText                      guibg=#870000 gui=bold
 
 hi Directory       guifg=#A6E22E               gui=bold
